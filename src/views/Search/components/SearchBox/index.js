@@ -3,7 +3,6 @@ import "./style.css";
 
 function SearchBox({ onSearch, onClose, isSearching }) {
   const [searchTexta, setSearchText] = useState("");
-  const [teto, setTeto] = useState("hellomotherfucker!");
   const handleSearchClick = () => {
     setSearchText("");
     onClose();
